@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ER:LC Private Portal Home</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/Seattle_Washington_Logo.png') }}">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for Icons -->
@@ -79,8 +80,8 @@
                 Please authenticate with your Roblox account to access the tablet portal.
             </div>
             <div class="pt-4">
-                <a href="{{ url_for('login') }}" class="portal-btn inline-flex items-center space-x-3 px-6 py-3 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-xl backdrop-blur-md text-sm font-medium">
-                    <i class="fa-brands fa-roblox text-lg"></i>
+                <a href="{{ url_for('login') }}" class="portal-btn relative inline-flex w-56 items-center justify-center px-6 py-3 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 hover:text-white border border-slate-700/80 shadow-xl backdrop-blur-md text-sm font-medium">
+                    <i class="fa-brands fa-roblox absolute left-6 text-lg"></i>
                     <span>Sign in with Roblox</span>
                 </a>
             </div>
